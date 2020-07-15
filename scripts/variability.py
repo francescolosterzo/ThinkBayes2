@@ -14,7 +14,10 @@ import numpy
 import random
 import scipy
 
-import brfss
+#import brfss
+import sys
+sys.path.append('/Users/francesco/PersonalProjects/ThinkBayes2/')
+from scripts import brfss
 
 import thinkplot
 import thinkbayes2
